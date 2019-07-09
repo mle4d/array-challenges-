@@ -1,7 +1,7 @@
 // Multiples of n
 function mult(n) {
   const mult = [];
-  for(let i = 1; i <= 100 /n; i++) {
+  for(let i = 1; i <= 100; i++) {
     if(i % n === 0) {
       mult.push(i * n);
     }       
